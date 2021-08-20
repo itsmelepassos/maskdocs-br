@@ -60,10 +60,10 @@ Teste/implemente à vontade
 
 ---
 
-###Créditos
+### Créditos
 - [Leandro Passos](https://github.com/itsmelepassos) (Developer)
 ---
 
-###License
+### License
 The MIT License (MIT). Please see [License File](https://github.com/itsmelepassos/maskdocs-br/blob/master/LICENSE) for
 more information.

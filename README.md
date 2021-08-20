@@ -9,7 +9,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/itsmelepassos/maskdocs-br.svg?style=flat-square)](https://scrutinizer-ci.com/g/itsmelepassos/maskdocs-br)
 [![Total Downloads](https://img.shields.io/packagist/dt/itsmelepassos/maskdocs-br.svg?style=flat-square)](https://packagist.org/packages/itsmelepassos/maskdocs-br)
 
-Pequena aplicação para tratamento de documentos sensíveis
+Pequena aplicação para tratamento e ocultação de documentos sensíveis
 
 ### Como usar?
 

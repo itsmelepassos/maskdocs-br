@@ -38,8 +38,7 @@ function mask_document(string $document, string $chars, string $mask = '', int $
  * @param string|null $document
  * @return string|null
  */
-function hide_document(?string $document): ?string
-
+function hide_document(string $document): ?string
 {
     if ($document) {
         return ((strlen($document) === 18)

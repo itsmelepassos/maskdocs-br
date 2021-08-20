@@ -26,6 +26,29 @@ composer.json, como no exemplo abaixo
 }
 ```
 ---
+### Como usar?
+Teste o conteúdo do documento, que só pode conter números, seja na variável, seja puxando um dado do seu BD.
+```php
+<?php
+require dirname(__DIR__) . "/vendor/autoload.php";
+
+$cpf = "71756816077";
+$cnpj = "49620643000127";
+
+$cpfMasked = mask_document($cpf, '***.***.***-**');
+$cnpjMasked = mask_document($cnpj, '**.***.***/****-**');
+
+$cpfHidden = hide_document($cpfMasked);
+$cnpjHidden = hide_document($cnpjMasked);
+
+echo "Docs sem máscara - CPF: $cpf; CNPJ: $cnpj";
+echo "<hr>";
+echo "Docs com máscara - CPF: $cpfMasked; CNPJ: $cnpjMasked";
+echo "<hr>";
+echo "Docs parcialmente ocultos - CPF: $cpfHidden; CNPJ: $cnpjHidden";
+```
+
+---
 ### Suporte
 No caso de descobrir alguma vulnerabilidade, sugerir algumas correções ou desejar contribuir para o projeto, 
 entre em contato com o desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]

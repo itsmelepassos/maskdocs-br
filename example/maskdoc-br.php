@@ -1,6 +1,4 @@
 <?php
-ob_start();
-
 require dirname(__DIR__) . "/vendor/autoload.php";
 
 /**
@@ -20,5 +18,3 @@ echo "<hr>";
 echo "Docs com máscara - CPF: $cpfMasked; CNPJ: $cnpjMasked";
 echo "<hr>";
 echo "Docs parcialmente ocultos - CPF: $cpfHidden; CNPJ: $cnpjHidden";
-
-ob_end_flush();

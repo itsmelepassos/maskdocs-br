@@ -1,0 +1,21 @@
+{
+    "name": "itsmelepassos/maskdocs-br",
+    "description": "Pequena aplicação para tratamento de documentos sensíveis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Passos",
+            "email": "itsmelepassos@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "Helpers/Helpers.php"
+        ]
+    }
+}
